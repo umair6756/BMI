@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: #2e86c1;
+  font-family: sans-serif;
+
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.calculator{
+  height: 36rem;
+  width: 20rem;
+  background: #d0d3d4;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow:0 15px 20px rgba(0,0,0,0.3);
+
+}
+
+.calculator h1{
+  text-align: center;
+  font-size: x-large;
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+
+}
+
+.age{
+  height: 6rem;
+  width: 18rem;
+  background: #f0f0f0;
+  margin: 1rem;
+  box-shadow:0 15px 20px rgba(0,0,0,0.3);
+  border-radius: 8px;
+
+
+}
+
+.num{
+  width: 10rem;
+  overflow: hidden;
+  border: none;
+  margin-left: 4rem;
+  background: #f0f0f0;
+  border-bottom: 1px solid #2e86c1;
+  margin-top: .5rem;;
+  text-align: center;
+  font-size: larger;
+
+}
+
+.age h1{
+  text-align: center;
+  font-size: x-large;
+  font-family: sans-serif;
+  color: black;
+  /* margin-top: .5rem; */
+  padding-top: 1rem;
+
+}
+
+.num:focus{
+  outline: none; /* Removes the focus outline */
+  border: none;
+  border-bottom: 1px solid #2e86c1;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+
+  -webkit-appearance : none;
+
+}
+
+.radioBtn{
+  height: 3rem;
+  width: 18rem;
+  background: #f0f0f0;
+  margin: 1rem;
+  box-shadow:0 15px 20px rgba(0,0,0,0.3);
+  border-radius: 5px;
+
+
+}
+
+[value="male"]{
+  margin-left: 2rem;
+  margin-top: 1rem;
+
+}
+
+[value="female"]{
+  margin-left: 4rem;
+  margin-top: 1rem;
+
+}
+
+
+
+.heightWeight{
+  display: flex;
+  justify-content: space-around;
+}
+
+.heightWeight h1{
+  font-size: large;
+
+}
+
+span{
+  height: 6rem;
+  width: 8rem;
+  margin: 1rem;
+  margin-top: .5rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  box-shadow:0 15px 20px rgba(0,0,0,0.3);
+
+}
+
+.numb{
+  width: 5rem;
+  overflow: hidden;
+  border: none;
+  margin-left: 1.5rem;
+  background: #f0f0f0;
+  border-bottom: 1px solid #2e86c1;
+  padding-top: .5rem;
+  text-align: center;
+  font-size: larger;
+}
+
+.numb:focus{
+  outline: none; /* Removes the focus outline */
+  border: none;
+  border-bottom: 1px solid #2e86c1;
+}
+
+button{
+  height: 2.5rem;
+  width: 18rem;
+  margin: 1rem;
+  margin-top: .5rem;
+  background: #2e86c1;
+  border: none;
+  border-radius: 8px;
+  color: #f0f0f0;
+  font-size: large;
+  transition: .6s;
+
+}
+
+button:hover{
+  background: #f0f0f0;
+  color: #2e86c1;
+  border:1px solid #2e86c1;
+
+}
+
+/* .displayBMI{
+  display: block;
+} */
+
+.displayBMI p{
+  text-align: center;
+}
+
+
+
+.ans{
+  height: 2.5rem;
+  width: 5rem;
+  background:  #f0f0f0;
+  color: #2e86c1;
+
+  margin-left: 7.5rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  font-size: x-large;
+  margin-top: .5rem;
+}
+
+.answer{
+  height: 2.5rem;
+  width: 18rem;
+  margin: 1rem;
+  background:  #d0d3d4;
+  color: #2e86c1;
+  text-align: center;
+  padding-top: .6rem;
+  font-size: large;
+  border: 2px dotted black;
+}
